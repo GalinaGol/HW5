@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Селектори</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Домашня робота №5. Селектори</h1>
+    </header>
+    <main>
+        <p><ins>Давайте розглянемо, які бувають селектори:</ins></p>
+        <ul>
+            <li>* - стиль для всіх елементів (у данному випадку розмір і шрифт)</li>
+            <li>Назва тегу (в нашому випадку - тег H1)</li>
+            <li id="id">#id - присвоюємо id</li>
+            <li class="class">Клас - зручно, колі необхідно задати стиль одразу декілька елементів (цей та наступний)</li>
+            <li class="class class2" >Вкладенні селектори (наприклад: p b )</li>
+            <li class="class2">Дочірні (ul > li) стиль ненумерованого списку</li>
+            <li> <b>Cусідні </b>- це коли вказуєш елемент попереду, а стиль застосовується до наступного <ins>"сусіда"</ins></li>
+            <li id="family">Є ще спорідненні (родичі), але вони мені шось не зайшли, тому знову #id</li>
+        </ul>
+        <fieldset>
+            <legend>Сподобалось?</legend>
+        
+            <div>
+              <input type="checkbox" id="yes" name="yes" checked>
+              <label for="yes">Звісно</label>
+            </div>
+    </main>
+    <footer>
+        <p>тут могла бути ваша реклама</p>
+    </footer>
+</body>
+</html>

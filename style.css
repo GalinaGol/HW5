@@ -1,0 +1,45 @@
+* {
+    font: 14pt sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+#id {
+  color: blueviolet;  
+}
+
+.class {
+    border-style: dotted;
+}
+
+p ins {
+    background-color: aquamarine;
+}
+
+ul > li{
+    list-style: square;
+}
+
+b + ins {
+    color:rgb(187, 16, 21);
+}
+
+#family {
+    font-style: italic;
+    color: blue;
+}
+
+[for="yes"] {
+    background: yellow;
+}
+
+footer > p {
+    font-size: small;
+    color: darkgrey;
+}
+
+.class2 {
+    margin: 30px;
+}
